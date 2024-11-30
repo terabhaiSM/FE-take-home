@@ -1,0 +1,21 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Floral Dress",
+        "category": "Apparel",
+        "salesLast30Days": 500,
+        "performance": "High",
+        "insights": "Predicted revenue growth: +15%"
+      },
+      {
+        "id": 2,
+        "name": "Room Decoration Kit",
+        "category": "Home Decor",
+        "salesLast30Days": 150,
+        "performance": "Medium",
+        "insights": "Predicted revenue growth: +5%"
+      }
+    ]
+  }
+  

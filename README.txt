@@ -1,50 +1,45 @@
-Assignment: Product Sales Insights Manager
+Objective: Build a Product Performance Dashboard
 
-Objective:
+Create a single-page application (SPA) that:
+1. Displays a list of products with details such as name, category, sales in the last 30 days, performance, and insights.
+2. Allows users to:
+	- Add a new product.
+	- Edit an existing product's details (e.g., name, category, performance, or sales).
+	- Delete a product.
+3. Provides a filter option to view products by:
+	- Category (e.g., Apparel, Electronics).
+	- Performance (High, Medium, Low).
+(optional) 4. Displays sales trends for a selected product:
+	- Fetch sales data for the selected product and show a simple chart (e.g., using Chart.js or Recharts) visualizing quantities sold over time.
+5. Persists changes using the mock API.
 
-Build a single-page application where users can:
+Technical Requirements
+1. Use TypeScript.
+2. Use React for the frontend.
+3. Implement state management using Context API, Redux, or similar.
+4. Use the provided db.json data <<https://my-json-server.typicode.com/sarthakb657/fe-hiring/db>>
 
-View a list of products and their sales performance.
-- Add, edit, or delete products.
-- View detailed insights for a specific product.
-- Filter products by sales performance (e.g., High, Medium, Low).
+Bonus Points
+1. Add unit tests with Jest and React Testing Library.
+2. Implement pagination for the product list.
+3. Deploy the app to Vercel or Netlify.
 
-Requirements
+API Endpoints
+Method	Endpoint		Description
+GET	/products		Fetch all products.
+GET	/products/{id}		Fetch a specific product by ID.
+POST	/products		Add a new product (mock).
+PUT	/products/{id}		Update a product by ID (mock).
+DELETE	/products/{id}		Delete a product by ID (mock).
+GET	/users			Fetch all users.
+GET	/users/{id}		Fetch a specific user by ID.
+GET	/sales			Fetch all sales.
+GET	/sales?productId={id}	Fetch sales for a specific product.
 
-Features:
 
-- Product Listing:
-	Display a table of products with columns: Name, Category, Sales (Last 30 Days), and Performance.
-	Each product should have an option to view detailed insights, edit, or delete the product.
-	Product Details Page:
+Deliverables
+1. A GitHub repository containing:
+	- Source code
+	- A README.md file with setup instructions.
+2.A live demo link of the deployed application.
 
-- Show details like product name, category, total sales (monthly), and insights (e.g., "Predicted revenue growth: +10%").
-	Fetch this data from the API when clicking "View Details."
-	Add/Edit Product Form:
-
-- Input fields for Name, Category, and Sales (Last 30 Days).
-	A dropdown for Performance (High, Medium, Low).
-	
-- Filter by Performance:
-	A dropdown or tabs to filter products by their sales performance.
-
-- Persist Data:
-	Use a mock API to add, edit, delete, and fetch products.
-
-Technical Expectations:
-- Use TypeScript.
-- Use React.
-- Use state management (React Context, Redux, etc.).
-- Deploy on Vercel or Netlify.
-
-Bonus Points:
-- Add unit tests using Jest or React Testing Library.
-- Implement pagination for the product list.
-- Include a simple chart (e.g., using Chart.js or Recharts) in the product details page to visualize sales trends.
-
-Deliverables:
-- GitHub repository containing the code.
-- Live demo link of the deployed application.
-- README file with:	
-	Steps to run the project locally.
-	Assumptions made during implementation.

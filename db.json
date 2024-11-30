@@ -15,6 +15,101 @@
         "salesLast30Days": 150,
         "performance": "Medium",
         "insights": "Predicted revenue growth: +5%"
+      },
+      {
+        "id": 3,
+        "name": "Wireless Earbuds",
+        "category": "Electronics",
+        "salesLast30Days": 50,
+        "performance": "Low",
+        "insights": "Predicted revenue growth: -2%"
+      },
+      {
+        "id": 4,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "salesLast30Days": 320,
+        "performance": "Medium",
+        "insights": "Predicted revenue growth: +8%"
+      },
+      {
+        "id": 5,
+        "name": "Gaming Chair",
+        "category": "Furniture",
+        "salesLast30Days": 70,
+        "performance": "Low",
+        "insights": "Predicted revenue growth: -1%"
+      },
+      {
+        "id": 6,
+        "name": "Smart Watch",
+        "category": "Electronics",
+        "salesLast30Days": 400,
+        "performance": "High",
+        "insights": "Predicted revenue growth: +10%"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "role": "Admin"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "role": "Customer"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "role": "Admin"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob@example.com",
+        "role": "Customer"
+      }
+    ],
+    "sales": [
+      {
+        "id": 1,
+        "productId": 1,
+        "date": "2024-10-01",
+        "quantity": 15,
+        "amount": 750
+      },
+      {
+        "id": 2,
+        "productId": 2,
+        "date": "2024-10-01",
+        "quantity": 5,
+        "amount": 250
+      },
+      {
+        "id": 3,
+        "productId": 1,
+        "date": "2024-10-02",
+        "quantity": 10,
+        "amount": 500
+      },
+      {
+        "id": 4,
+        "productId": 3,
+        "date": "2024-10-02",
+        "quantity": 2,
+        "amount": 100
+      },
+      {
+        "id": 5,
+        "productId": 4,
+        "date": "2024-10-02",
+        "quantity": 8,
+        "amount": 320
       }
     ]
   }

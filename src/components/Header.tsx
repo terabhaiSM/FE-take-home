@@ -4,7 +4,7 @@ import "./Header.css"; // We'll create this file for styling the header
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <h1 className="header-title">AI-Powered Data Solutions</h1>
+      <h1 className="header-title">Dynamic Content Manager</h1>
     </header>
   );
 };

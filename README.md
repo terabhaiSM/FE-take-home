@@ -23,8 +23,8 @@ Feel free to go beyond the requirements and include a README outlining any bonus
 2. **Clone Your Fork**  
    - Clone your forked repository to your local machine:  
      ```bash
-     git clone https://github.com/<your-username>/cs_fe_assignment
-     cd cs_fe_assignment
+     git clone https://github.com/<your-username>/FE-take-home
+     cd FE-take-home
      ```
 
 3. **Install Dependencies**  

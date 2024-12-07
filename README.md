@@ -18,7 +18,7 @@ Feel free to go beyond the requirements and include a README outlining any bonus
 
 1. **Fork the Repository**  
    - Start by forking the assignment repository we’ve shared with you:  
-     [<insert-repository-link-here>](<insert-repository-link-here>).
+     [<insert-repository-link-here>](https://github.com/sarthakb657/FE-take-home).
 
 2. **Clone Your Fork**  
    - Clone your forked repository to your local machine:  
@@ -47,7 +47,7 @@ Feel free to go beyond the requirements and include a README outlining any bonus
 
 ## 3. Design Reference
 
-Refer to the [Figma design file](<insert-your-figma-link-here>) for guidance on the layout and styling.
+Refer to the [Figma design file](https://www.figma.com/design/gJ3UgzzhS41hJpyuxgbVR4/Frontend-assignment?node-id=2127-188&t=aFTI90flpSf1BTeN-1) for guidance on the layout and styling.
 
 ---
 

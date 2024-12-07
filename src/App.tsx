@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [data, setData] = useState<any[]>([]);
-  const [selectedOption, setSelectedOption] = useState(""); //Default is empty
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleDataFetch = useCallback((fetchedData: any[]) => {
     setData(fetchedData);
@@ -22,14 +22,36 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <DropdownFetch
-        onDataFetch={handleDataFetch}
-        selectedOption={selectedOption}
-        setSelectedOption={setSelectedOption}
-      />
-      <TableComponent data={data} columns={columns} />
-      <DownloadButton data={data} fileName={fileName} />
+      <div className="container">
+        <Header />
+
+        {/* Fetch Content Section */}
+        <div className="dropdown-section">
+          <h2 className="section-title">Fetch Content</h2>
+          <div className="section-box">
+            <DropdownFetch
+              onDataFetch={handleDataFetch}
+              selectedOption={selectedOption}
+              setSelectedOption={setSelectedOption}
+            />
+          </div>
+        </div>
+
+        {/* Displaying Content Section */}
+        <div className="content">
+          <h2 className="section-title">Displaying Content</h2>
+          <div className="section-box">
+            {data.length === 0 ? (
+              <p className="placeholder-message">
+                Select content type to fetch results
+              </p>
+            ) : (
+              <TableComponent data={data} columns={columns} />
+            )}
+          </div>
+          {data.length > 0 && <DownloadButton data={data} fileName={fileName} />}
+        </div>
+      </div>
     </div>
   );
 }

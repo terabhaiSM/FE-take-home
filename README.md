@@ -1,46 +1,135 @@
-# Getting Started with Create React App
+# Frontend Assignment: Dynamic Table with Dropdown Selection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Assignment Overview
 
-## Available Scripts
+### Objective  
+Build a **React application** that displays data in a table, allowing users to switch between different data sources using a dropdown menu. The goal is to create a simple yet polished user experience with a focus on clean design and usability.
 
-In the project directory, you can run:
+### A Note from Us  
+We value your time! If this assignment takes more than **8 hours**, feel free to submit what you have.  
 
-### `npm start`
+The functionality is simple, but we’re looking for **attention to detail, clean design, and thoughtful execution**. While the code doesn’t need to be production-ready, it should reflect quality and care.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Feel free to go beyond the requirements and include a README outlining any bonus features or ideas for improvement.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 2. Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Fork the Repository**  
+   - Start by forking the assignment repository we’ve shared with you:  
+     [<insert-repository-link-here>](<insert-repository-link-here>).
 
-### `npm run build`
+2. **Clone Your Fork**  
+   - Clone your forked repository to your local machine:  
+     ```bash
+     git clone https://github.com/<your-username>/cs_fe_assignment
+     cd cs_fe_assignment
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install Dependencies**  
+   - Install the required dependencies using npm:  
+     ```bash
+     npm install
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the Development Server**  
+   - Run the following command to start the app:  
+     ```bash
+     npm start
+     ```
+     The app should now be running at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Recommended Tools**  
+   - **Node.js v16+**  
+   - A modern browser with developer tools (e.g., **Chrome** or **Edge**)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 3. Design Reference
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Refer to the [Figma design file](<insert-your-figma-link-here>) for guidance on the layout and styling.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 4. Backend API
 
-## Learn More
+The application will fetch data from the following endpoints:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Posts**:  
+  [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)  
+  Columns to display: **ID**, **Title**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Comments**:  
+  [https://jsonplaceholder.typicode.com/comments](https://jsonplaceholder.typicode.com/comments)  
+  Columns to display: **ID**, **Name**
+
+API calls should dynamically update the table content based on the dropdown selection.
+
+---
+
+## 5. Tasks / Deliverables
+
+### Tasks  
+
+1. **Dropdown**  
+   - Create a dropdown with two options: `Posts` and `Comments`.  
+   - Fetch data from the selected API endpoint.  
+   - Dynamically update the displayed table without page reloads.
+
+2. **Table (Reusable Component)**  
+   - Create a nested `TableComponent` to handle table rendering.  
+   - Pass fetched data and column configurations as props.  
+   - Ensure appropriate columns are displayed:  
+     - For **Posts**: `ID` and `Title`  
+     - For **Comments**: `ID` and `Name`  
+
+3. **Pagination**  
+   - Implement pagination to display **10 rows per page**.  
+   - Include navigation controls (Previous, Next, Page Numbers) below the table.
+
+4. **Download Button**  
+   - Add a "Download" button below the table to export the currently displayed data.
+
+### Bonus Task (Optional)  
+- Add a loading spinner while data is being fetched.
+
+---
+
+## 6. Submission Guidelines
+
+1. **Complete the Assignment**  
+   - Work directly in the forked repository you created during the "Getting Started" step.
+   - Ensure all necessary files are included and that the app runs successfully.
+
+2. **Update the README**  
+   - Include instructions for running your project locally.  
+   - Document any assumptions, design decisions, or bonus features you implemented.
+
+3. **Share Your Work**  
+   - Submit the link to your forked repository.
+
+
+---
+
+## 7. Evaluation Criteria
+
+Your submission will be evaluated on the following criteria:  
+
+1. **Functionality**  
+   - The app meets the core requirements (dropdown, table, pagination).  
+
+2. **Code Quality**  
+   - Clean, modular, and reusable components.  
+   - Best practices in **TypeScript** and **React**.  
+
+3. **Design & Usability**  
+   - Follows the provided Figma design.  
+   - Delivers a polished and user-friendly experience.  
+
+4. **Creativity**  
+   - Thoughtful execution and attention to detail.  
+   - Bonus points for enhancements.
+
+---
+
+Best of luck. We are excited to see your work.

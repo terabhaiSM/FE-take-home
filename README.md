@@ -18,7 +18,7 @@ Feel free to go beyond the requirements and include a README outlining any bonus
 
 1. **Fork the Repository**  
    - Start by forking the assignment repository we’ve shared with you:  
-     [<insert-repository-link-here>](https://github.com/sarthakb657/FE-take-home).
+     [Take-home Asssignment Repo](https://github.com/sarthakb657/FE-take-home).
 
 2. **Clone Your Fork**  
    - Clone your forked repository to your local machine:  

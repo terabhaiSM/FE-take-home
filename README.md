@@ -15,33 +15,16 @@ Feel free to go beyond the requirements and update the README outlining any bonu
 
 ## 2. Getting Started
 
-1. **Fork the Repository**  
-   - Start by forking the assignment repository we’ve shared with you:  
-     [Take-home Asssignment Repo](https://github.com/sarthakb657/FE-take-home).
+1. **Clone and Fork**  
+   - Fork the assignment repository: [FE-take-home Repo](https://github.com/sarthakb657/FE-take-home).  
+   - Clone your forked repository to your local machine.
 
-2. **Clone Your Fork**  
-   - Clone your forked repository to your local machine:  
-     ```bash
-     git clone https://github.com/<your-username>/FE-take-home
-     cd FE-take-home
-     ```
+2. **Start Development**  
+   - Install the dependencies.  
+   - Start the development server.  
 
-3. **Install Dependencies**  
-   - Install the required dependencies using npm:  
-     ```bash
-     npm install
-     ```
+   The app will run at [http://localhost:3000](http://localhost:3000).  
 
-4. **Start the Development Server**  
-   - Run the following command to start the app:  
-     ```bash
-     npm start
-     ```
-     The app should now be running at [http://localhost:3000](http://localhost:3000).
-
-5. **Recommended Tools**  
-   - **Node.js v16+**  
-   - A modern browser with developer tools (e.g., **Chrome** or **Edge**)
 
 
 ## 3. Design Reference
@@ -97,37 +80,18 @@ API calls should dynamically update the table content based on the dropdown sele
 ## 6. Submission Guidelines
 
 1. **Complete the Assignment**  
-   - Work directly in the forked repository you created during the "Getting Started" step.
-   - Ensure all necessary files are included and that the app runs successfully.
+   - Finish the assignment in your forked repository.  
 
-2. **Update the README**  
-   - Include instructions for running your project locally.  
-   - Document any assumptions, design decisions, or bonus features you implemented.
-
-3. **Share Your Work**  
-   - Submit the link to your forked repository.
+2. **Share Your Work**  
+   - Share the public link to your forked repository, including any added instructions and assumptions, with us.  
+   - Email your submission to [hr@columsprout.ai](mailto:hr@columsprout.ai).
 
 
 ---
 
 ## 7. Evaluation Criteria
 
-Your submission will be evaluated on the following criteria:  
-
-1. **Functionality**  
-   - The app meets the core requirements (dropdown, table, pagination).  
-
-2. **Code Quality**  
-   - Clean, modular, and reusable components.  
-   - Best practices in **TypeScript** and **React**.  
-
-3. **Design & Usability**  
-   - Follows the provided Figma design.  
-   - Delivers a polished and user-friendly experience.  
-
-4. **Creativity**  
-   - Thoughtful execution and attention to detail.  
-   - Bonus points for enhancements.
+We’re looking for a sleek, user-friendly design that stays true to the provided Figma and delivers a seamless experience. Show off your creativity with thoughtful touches, attention to detail, or unique enhancements to really make your submission stand out!
 
 ---
 

@@ -5,11 +5,10 @@
 ### Objective  
 Build a **React application** that displays data in a table, allowing users to switch between different data sources using a dropdown menu. The goal is to create a simple yet polished user experience with a focus on clean design and usability.
 
-### Note 
+### Note  
 
-The functionality is simple, but we’re looking for **attention to detail, clean design, and thoughtful execution**. While the code doesn’t need to be production-ready, it should reflect quality and care.  
-
-Feel free to go beyond the requirements and update the README outlining any bonus features or ideas for improvement.
+We value **attention to detail, clean design, and thoughtful execution**. The code doesn’t need to be production-ready but should reflect quality.  
+Feel free to exceed requirements and update the README with any bonus features or improvement ideas.  
 
 ---
 

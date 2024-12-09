@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import Loader from "./Loader/Loader";
 
 type Post = {
     userId: number;
@@ -48,9 +49,7 @@ const Table: React.FC<TableProps> = ({
     return (
         <div className="table-container">
             <h2 className="table-title">Displaying Content</h2>
-            {loading ? (
-                <p className="loading-text">Loading...</p>
-            ) : (
+            {loading ? <Loader /> : (
                 <>
                     <table className="data-table">
                         <thead>

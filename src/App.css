@@ -1,23 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap");
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap");
 .app-container {
   margin: 40px;
   padding: 20px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .app-title {
-  font-size: 26px;
-  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 8px;
   text-align: center;
   color: #333;
-  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: white;
+  width: 97%;
+  height: 70px;
+  margin: 0px;
+  align-items: center;
+  padding-left: 33px;
 }
 
 /* Dropdown Container */
@@ -32,23 +47,23 @@ body {
 
 /* Dropdown Label */
 .dropdown-label {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
   color: #344054;
   background-color: white;
-  width: 93%;
+  width: 94%;
   padding: 4px 32px 4px;
   border-radius: 8px;
-  border: #EAECF0 solid 1px;
+  border: #eaecf0 solid 1px;
 }
 
 /* Custom Dropdown */
 .custom-dropdown {
   width: 248px;
   height: 30.43px;
-  background: #EEEEEE;
+  background: #eeeeee;
   border: 1px solid #eaecf0;
   border-radius: 8px;
   display: flex;
@@ -60,9 +75,14 @@ body {
 }
 
 .selected-value {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #525f71;
 }
 
 /* Dropdown Arrow */
@@ -83,7 +103,7 @@ body {
   background-color: white;
   padding: 17.12px 28px;
   border-radius: 8px;
-  border: #EAECF0 solid 1px;
+  border: #eaecf0 solid 1px;
 }
 
 /* Dropdown Options */
@@ -91,7 +111,7 @@ body {
   position: absolute;
   top: 45px;
   width: 272px;
-  background: #EEEEEE;
+  background: #eeeeee;
   border: 1px solid #eaecf0;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -102,19 +122,26 @@ body {
 /* Unselected Option */
 .dropdown-option {
   height: 30.43px;
-  background: #EEEEEE;
+  background: #eeeeee;
   border-radius: 8px;
   margin: 8px auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
   line-height: 15px;
   color: #000000;
   cursor: pointer;
   position: sticky;
   transition: background-color 0.3s ease;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  justify-content: flex-start;
+    padding: 2px 15px 2px;
+
 }
 
 /* Hover Effect for Options */
@@ -124,15 +151,28 @@ body {
 
 /* Selected Option */
 .dropdown-option.selected {
-  background: #D1CFFF;
+  background: #d1cfff;
   border: 1px solid #eaecf0;
-  font-weight: 700;
-  color: #344054;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  justify-content: flex-start;
+  padding: 2px 15px 2px;  
 }
 
 .table-title {
-  font-size: 18px;
-  color: #444;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: var(--lineheight2592);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
   text-align: start;
   margin-bottom: 10px;
 }
@@ -144,12 +184,20 @@ body {
 }
 
 .table-header {
-  background-color: #f4f4f4;
+  background-color: #fff;
   color: #555;
   text-align: left;
   padding: 10px;
   font-weight: bold;
   border-bottom: 1px solid #ddd;
+  border: 1.42px solid #eaecf0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .table-header.id {
@@ -158,6 +206,10 @@ body {
 }
 
 .table-header.title {
+  padding-left: 56px;
+}
+
+.table-header.name {
   padding-left: 56px;
 }
 
@@ -189,15 +241,67 @@ body {
 
 .table-container {
   background-color: white;
-    padding: 14.74px 48px;
-    margin-top: 16px;
-    padding-bottom: 40px;
-    border-radius: 8px;
-    border: #EAECF0 solid 1px;
+  padding: 14.74px 48px;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: #eaecf0 solid 1px;
 }
 
 .data-table-body {
-  border: #EAECF0 solid 1px;
-  border-left: #D9D9D9 solid 1.44px;
-  border-right: #D9D9D9 solid 1.44px;
+  border: #eaecf0 solid 1px;
+  border-left: #d9d9d9 solid 1.44px;
+  border-right: #d9d9d9 solid 1.44px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 0;
+  gap: 18px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.button {
+  background: white;
+  border: 0px;
+}
+
+.download-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  gap: 10px;
+  width: 178px;
+  height: 52px;
+  background: #d1cfff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  transition: background-color 0.2s;
+}
+
+.download-button:hover {
+  background-color: #c3c0ff;
 }
